@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "418e84d6d8311c32",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a9571e08953ca52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d08f5ef9e007181a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d919f4ecf294efe6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "248388db11d400bb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22698834df244fae",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2986af665e925e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f44b6728f2ef1a73",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eded088aa6c6602d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "三剑客",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9dc69034d5aadbb6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "233221543e2ff998",
+    "type": "split",
+    "children": [
+      {
+        "id": "c68698e81eddc8a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93f395c70f3647bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "096426cfb820c6de",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4e909b75d8ca2d1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7663cb4a9ca53a40",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccd51ab085c4bc18",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "65c61b4eed62f2d9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "active": "248388db11d400bb",
+  "lastOpenFiles": [
+    "未命名.md",
+    "create blog.md",
+    "devops/Linux网络班/twelve.md",
+    "devops/Linux网络班/two.md",
+    "2022-10-28.md",
+    "2022-10-27.md",
+    "2022-10-15.md",
+    "devops/Linux网络班/第一次月度考试.md",
+    "devops/Linux网络班/eight.md",
+    "devops/Linux网络班/eleven.md"
+  ]
+}
