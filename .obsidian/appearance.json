@@ -3,5 +3,7 @@
   "cssTheme": "",
   "theme": "system",
   "baseFontSize": 16,
-  "accentColor": ""
+  "accentColor": "",
+  "showViewHeader": true,
+  "nativeMenus": true
 }

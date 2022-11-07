@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "./enclosure",
+  "attachmentFolderPath": "./",
   "spellcheck": true,
   "useMarkdownLinks": true,
   "communityThemeSortOrder": "download",
@@ -11,6 +11,9 @@
   },
   "alwaysUpdateLinks": true,
   "showFrontmatter": true,
-  "readableLineLength": false,
-  "newLinkFormat": "relative"
+  "readableLineLength": true,
+  "newLinkFormat": "relative",
+  "showInlineTitle": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/post/"
 }

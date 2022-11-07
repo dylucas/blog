@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9a9571e08953ca52",
+        "id": "6c5edc3882ece8e3",
         "type": "tabs",
         "children": [
           {
-            "id": "d08f5ef9e007181a",
+            "id": "553ae8ecdd57e64f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d919f4ecf294efe6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "248388db11d400bb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -46,7 +32,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f44b6728f2ef1a73",
+            "id": "d4799307bbbde0b3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "三剑客",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,18 +95,18 @@
             }
           },
           {
-            "id": "096426cfb820c6de",
+            "id": "21c86f1256ba6d35",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4e909b75d8ca2d1e",
+            "id": "54160ee8c2792714",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +117,7 @@
             }
           },
           {
-            "id": "7663cb4a9ca53a40",
+            "id": "0b5f91cdee991594",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -145,14 +131,6 @@
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "65c61b4eed62f2d9",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
         "currentTab": 4
@@ -161,8 +139,9 @@
     "direction": "horizontal",
     "width": 267.5
   },
-  "active": "248388db11d400bb",
+  "active": "553ae8ecdd57e64f",
   "lastOpenFiles": [
+    "2022-11-07.md",
     "未命名.md",
     "create blog.md",
     "devops/Linux网络班/twelve.md",
@@ -171,7 +150,6 @@
     "2022-10-27.md",
     "2022-10-15.md",
     "devops/Linux网络班/第一次月度考试.md",
-    "devops/Linux网络班/eight.md",
-    "devops/Linux网络班/eleven.md"
+    "devops/Linux网络班/eight.md"
   ]
 }
