@@ -7,14 +7,14 @@ title: 雨夜无声
 languages:
     en:
         languageName: English
-        title: dylucas
+        title: rainy night silent
         description: My Notebook
-        weight: 1
+        weight: 2
     zh-cn:
         languageName: 中文
         title: 雨夜无声
         description: 我的笔记本
-        weight: 2
+        weight: 1
     # ar:
     #     languageName: عربي
     #     languagedirection: rtl
@@ -30,7 +30,7 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: zh-cn
+DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
@@ -72,7 +72,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: gitalk
 
         disqusjs:
@@ -139,11 +139,11 @@ params:
             emitMetadata: 0
 
         gitalk:
-            owner: "dylucas"
+            owner:
             admin:
-            repo: "dylucas.com"
-            clientID: "949bbff5c77883b7c1dd"
-            clientSecret: "ec7431e204d8d8336c0dcf029ef8bd5dd50484a8"
+            repo:
+            clientID:
+            clientSecret:
 
         cusdis:
             host:
@@ -197,17 +197,23 @@ menu:
     main: []
 
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+        - identifier: email
+          name: Email
+          url: mailto:dylucas@163.com
           params:
-              icon: brand-github
+              icon: brand-mail
+              
+        # - identifier: github
+        #   name: GitHub
+        #   url: https://github.com/CaiJimmy/hugo-theme-stack
+        #   params:
+        #       icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        # - identifier: twitter
+        #   name: Twitter
+        #   url: https://twitter.com
+        #   params:
+        #       icon: brand-twitter
 
 related:
     includeNewer: true
