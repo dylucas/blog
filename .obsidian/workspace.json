@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "915639139d87fab8",
+        "id": "61c061777da15e0a",
         "type": "tabs",
         "children": [
           {
-            "id": "3ab891a05e70cf5c",
+            "id": "16f833ba3181c225",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/MySQL读写分离实践/index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/MySQL读写分离实践/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/MySQL读写分离实践/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/MySQL读写分离实践/index.md"
+              }
             }
           },
           {
@@ -128,25 +137,33 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "1f19a91557854a6a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 267.5
   },
-  "active": "d4799307bbbde0b3",
+  "active": "16f833ba3181c225",
   "lastOpenFiles": [
-    "archetypes/default.md",
-    "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/helena-hertz-wWZzXlDpMog-unsplash.jpg",
-    "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/index.zh-cn.md",
-    "content/post/php注册consul/index.zh-cn.md",
-    "themes/hugo-theme-stack/archetypes/default.md",
-    "themes/hugo-theme-stack/archetypes/tags.md",
-    "themes/hugo-theme-stack/archetypes/categories.md",
-    "content/page/about/index.zh-cn.md",
-    "content/post/php注册consul/20221108220806.png",
-    "2022-11-07.md"
+    "content/categories/database/index.md",
+    "content/categories/Java/index.md",
+    "content/post/MySQL读写分离实践/index.md",
+    "content/post/MySQL读写分离实践/index-20221110-4.png",
+    "content/post/MySQL读写分离实践/index-20221110.png",
+    "content/post/MySQL读写分离实践/Pasted image 20221110215243.png",
+    "Pasted image 20221110214806.png.md",
+    "image.png",
+    "content/post/Java请求参数注解验证并统一处理/index.md",
+    "content/page/search/index.md"
   ]
 }

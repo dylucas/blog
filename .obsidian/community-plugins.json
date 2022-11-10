@@ -3,5 +3,10 @@
   "obsidian-git",
   "obsidian-linter",
   "oz-image-plugin",
-  "obsidian-paste-image-rename"
+  "obsidian-paste-image-rename",
+  "table-editor-obsidian",
+  "obsidian-banners",
+  "mousewheel-image-zoom",
+  "tag-wrangler",
+  "obsidian-local-images"
 ]
