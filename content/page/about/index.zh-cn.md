@@ -7,4 +7,4 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+![](IMG_0749.jpg)美丽的太阳

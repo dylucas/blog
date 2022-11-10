@@ -1,5 +1,7 @@
 [
   "oz-clear-unused-images",
   "obsidian-git",
-  "obsidian-linter"
+  "obsidian-linter",
+  "oz-image-plugin",
+  "obsidian-paste-image-rename"
 ]
