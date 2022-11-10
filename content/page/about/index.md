@@ -6,5 +6,6 @@ menu:
         params:
             icon: user
 ---
+![](IMG_0749.jpg)
 
-![](IMG_0749.jpg)美丽的太阳
+**美丽的太阳**
