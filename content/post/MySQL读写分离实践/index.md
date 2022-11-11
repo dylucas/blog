@@ -7,11 +7,11 @@ tags: ["MySQL"]
 categories: ["database"]
 ---
 
-### MySQL读写分离的原理
+## MySQL读写分离的原理
 
 主库将变更写入`binlog`日志，然后从库连接到主库之后，从库有一个IO线程，将主库的`binlog`日志拷贝到自己本地，写入一个`relay`中继日志中。接着从库中有一个SQL线程会从中继日志读取`binlog`，然后执行`binlog`日志中的内容，也就是在自己本地再次执行一遍SQL，这样就可以保证自己跟主库的数据是一样的。
 
-### 实践环境
+## 实践环境
 
 系统：macOS
 工具：Docker CE
@@ -28,7 +28,7 @@ docker pull mysql:8.0.23
 docker network create --subnet=172.18.0.0/24 docker-network
 ```
 
-### 创建配置文件
+## 创建配置文件
 
 master.cnf
 
@@ -54,7 +54,7 @@ server-id=102
 binlog-format=MIXED
 ```
 
-### 启动两个MySQL容器
+## 启动两个MySQL容器
 
 Master
 
@@ -78,7 +78,7 @@ docker run \
 --name mysql-slave -e MYSQL_ROOT_PASSWORD=123456 -d mysql:8.0.23
 ```
 
-### 配置主从复制
+## 配置主从复制
 
 进入mysql-master容器
 
