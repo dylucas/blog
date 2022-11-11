@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "61c061777da15e0a",
+        "id": "1c71b7a3e9c64668",
         "type": "tabs",
         "children": [
           {
-            "id": "16f833ba3181c225",
+            "id": "d157dc48b0429887",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "content/post/MySQL读写分离实践/index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": ".obsidian/plugins/obsidian-paste-image-rename/data.json",
+                "staged": false
               }
             }
           }
@@ -86,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/MySQL读写分离实践/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/MySQL读写分离实践/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/MySQL读写分离实践/index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -147,23 +141,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 267.5
   },
-  "active": "16f833ba3181c225",
+  "active": "d157dc48b0429887",
   "lastOpenFiles": [
+    "content/page/about/index.md",
+    "content/post/MySQL读写分离实践/index.md",
     "content/categories/database/index.md",
     "content/categories/Java/index.md",
-    "content/post/MySQL读写分离实践/index.md",
     "content/post/MySQL读写分离实践/index-20221110-4.png",
     "content/post/MySQL读写分离实践/index-20221110.png",
     "content/post/MySQL读写分离实践/Pasted image 20221110215243.png",
     "Pasted image 20221110214806.png.md",
     "image.png",
-    "content/post/Java请求参数注解验证并统一处理/index.md",
-    "content/page/search/index.md"
+    "content/post/Java请求参数注解验证并统一处理/index.md"
   ]
 }
