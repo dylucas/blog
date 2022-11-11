@@ -24,7 +24,7 @@ PHP的软件包管理系统，它提供用于管理PHP软件和依赖库关系�
 
 composer软件包地址：https://packagist.org/
 
-![](../Java请求参数注解验证并统一处理/asynccode.png)
+![](asynccode.png)
 
 ### 根据PHP版本引入扩展包
 
