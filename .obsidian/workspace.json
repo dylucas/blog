@@ -11,20 +11,9 @@
             "id": "129d94abc244cbf3",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "content/post/MySQL读写分离实践/index.md",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "de4fd314ae68837b",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "archetypes/obsidianTemplater.md",
+                "file": "content/post/Java请求参数注解验证并统一处理/index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/Java请求参数注解验证并统一处理/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/Java请求参数注解验证并统一处理/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/Java请求参数注解验证并统一处理/index.md"
+              }
             }
           },
           {
@@ -163,12 +156,12 @@
   "active": "129d94abc244cbf3",
   "lastOpenFiles": [
     "content/post/ElasticSearch学习(一)/index.md",
+    "content/post/Java请求参数注解验证并统一处理/index.md",
     "archetypes/obsidianTemplater.md",
     "content/post/ElasticSearch学习(一)/未命名 1.md",
     "content/post/ElasticSearch学习(一)/未命名.md",
     "未命名.md",
     "content/post/MySQL读写分离实践/index.md",
-    "content/post/Java请求参数注解验证并统一处理/index.md",
     "archetypes/default.md",
     "content/post/php注册consul/index.md",
     "content/page/about/index.md"

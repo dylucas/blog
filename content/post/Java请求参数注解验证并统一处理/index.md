@@ -36,12 +36,6 @@ JSR303 是一套JavaBean参数校验的标准，它定义了很多常用的校�
 validation的异常类是`MethodArgumentNotValidException.class`，下面的代码对validation异常进行捕获并统一返回格式。
 
 ```Java
-package com.umetrip.hotel.api.exception;
-
-import com.umetrip.hotel.api.constants.LogSchemaApi;
-import com.umetrip.hotel.api.domain.RespBean;
-import com.umetrip.mid.remote.domain.s2c.S2cRespWrap;
-import com.umetrip.mid.umeruler.UmeCommonRuler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -64,20 +58,19 @@ public class ValidatorException {
         RespBean result = new RespBean();
         BindingResult bindingResult = methodArgumentNotValidException.getBindingResult();
         
-        //-----返回所有校验出错的字段和信息begin
-        // 创建封装校验出错信息map
-        HashMap<String, String> errorMap = new HashMap<>();
-        // 遍历所有校验出错字段
-        bindingResult.getFieldErrors().forEach(field -> {
-            errorMap.put(field.getField(), field.getDefaultMessage());
-        });
-        // result.setErrorMsg(errorMap.toString());
-        //-----end
-
-        // 返回默认校验出错信息
-        result.setErrorMsg(bindingResult.getFieldError().getDefaultMessage());
-        result.setErrorCode(-2240001);
-        return UmeCommonRuler.getResponse(result);
+        // 创建封装校验出错信息map  
+		// HashMap<String, String> errorMap = new HashMap<>();  
+		// 遍历所有校验出错字段  
+		// bindingResult.getFieldErrors().forEach(field -> {  
+		//     errorMap.put(field.getField(), field.getDefaultMessage());  
+		// });  
+		  
+		String errorMsg = "捕获异常失败";  
+		if (bindingResult.getAllErrors().size() > 0) {  
+		    errorMsg = bindingResult.getAllErrors().get(0).getDefaultMessage();  
+		}  
+		result.setErrorMsg(errorMsg)
+        return result;
     }
 }
 ```
