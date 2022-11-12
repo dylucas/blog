@@ -1,12 +1,4 @@
 {
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
@@ -25,5 +17,13 @@
       "key": "O"
     }
   ],
-  "markdown-prettifier:markdown-prettifier-update-fields": []
+  "markdown-prettifier:markdown-prettifier-update-fields": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ]
 }

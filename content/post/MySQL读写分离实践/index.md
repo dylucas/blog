@@ -1,6 +1,6 @@
 ---
 title: "MySQL读写分离实践"
-date: 2020-09-05T00:13:09+08:00
+date: 2020-09-05
 draft: false
 keywords: ["MySQL","读写分离"]
 tags: ["MySQL"]
