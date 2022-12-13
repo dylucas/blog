@@ -78,5 +78,5 @@ $prometheus->registerCounter($pthParam);
 ```
 
 ## 扩展阅读
-[Prometheus简介 · Prometheus中文技术文档](https://www.prometheus.wang/quickstart/why-monitor.html)
-[第1章 天降奇兵 - prometheus-book (gitbook.io)](https://yunlzheng.gitbook.io/prometheus-book/parti-prometheus-ji-chu/quickstart)
+1. [Prometheus简介 · Prometheus中文技术文档](https://www.prometheus.wang/quickstart/why-monitor.html) 
+2. [第1章 天降奇兵 - prometheus-book (gitbook.io)](https://yunlzheng.gitbook.io/prometheus-book/parti-prometheus-ji-chu/quickstart)
