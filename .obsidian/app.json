@@ -15,5 +15,7 @@
   "newLinkFormat": "relative",
   "showInlineTitle": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "content/post/"
+  "newFileFolderPath": "content/post/",
+  "showLineNumber": true,
+  "strictLineBreaks": true
 }
