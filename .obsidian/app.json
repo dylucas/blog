@@ -17,5 +17,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "content/post/",
   "showLineNumber": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "useTab": false
 }

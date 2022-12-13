@@ -25,20 +25,20 @@ use Prometheus\RenderTextFormat;
 
 class Prometheus
 {
-	public static $registry;
-	public static $renderer;
-	public static $counter;
+    public static $registry;
+    public static $renderer;
+    public static $counter;
 
-	public function __construct()
+    public function __construct()
     {
-	    // 连接redis
-		$adapter = new Redis();
-		self::$registry = new CollectorRegistry($adapter);
-		self::$renderer = new RenderTextFormat($adapter);
+        // 连接redis
+        $adapter = new Redis();
+        self::$registry = new CollectorRegistry($adapter);
+        self::$renderer = new RenderTextFormat($adapter);
     }
 
-	// 打点方法
-	public function registerCounter($prometheus)
+    // 打点方法
+    public function registerCounter($prometheus)
     {
         if (!empty($prometheus['action'])) {
             $namespace = $prometheus['namespace'];
@@ -46,18 +46,18 @@ class Prometheus
             self::$counter = self::$registry->registerCounter($namespace, $name, 'it increases', ['type']);
             if (is_array($prometheus['action'])) {
                 foreach ($prometheus['action'] as $v) {
-	                // 将统计结果增加1
+                    // 将统计结果增加1
                     self::$counter->incBy(1, [$v]);  
                 }
             } else {
-		        // 将统计结果增加1
+                // 将统计结果增加1
                 self::$counter->incBy(1, [$prometheus['action']]);  
             }
         }
     }
 
-	// 输出结果给prometheus服务
-	public function RenderTextFormat(){
+    // 输出结果给prometheus服务
+    public function RenderTextFormat(){
         $result = self::$renderer->render(self::$registry->getMetricFamilySamples());
         header('Content-type: ' . RenderTextFormat::MIME_TYPE);
         return $result;
@@ -70,9 +70,9 @@ class Prometheus
 ```php
 $prometheus = new Prometheus();
 $pthParam = [
-	'action' => 'loginSuccess', // 要打点的数据
-	'namespace' => 'service', // 命名空间
-	'name' => 'loginApi', // 名称
+    'action' => 'loginSuccess', // 要打点的数据
+    'namespace' => 'service', // 命名空间
+    'name' => 'loginApi', // 名称
 ];
 $prometheus->registerCounter($pthParam);
 ```
