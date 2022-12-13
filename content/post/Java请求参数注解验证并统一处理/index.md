@@ -36,35 +36,40 @@ JSR303 是一套JavaBean参数校验的标准，它定义了很多常用的校�
 validation的异常类是`MethodArgumentNotValidException.class`，下面的代码对validation异常进行捕获并统一返回格式。
 
 ```Java
-import lombok.extern.slf4j.Slf4j;  
-import org.springframework.validation.BindingResult;  
-import org.springframework.web.bind.MethodArgumentNotValidException;  
-import org.springframework.web.bind.annotation.ControllerAdvice;  
-import org.springframework.web.bind.annotation.ExceptionHandler;  
-import org.springframework.web.bind.annotation.ResponseBody;  
-  
-/**  
- * @author ydong  
- */@ControllerAdvice  
-@Slf4j  
-public class ValidatorException {  
-    @ExceptionHandler(MethodArgumentNotValidException.class)  
-    @ResponseBody  
-    public S2cRespWrap exceptionHandler(MethodArgumentNotValidException methodArgumentNotValidException) {  
-        RespBean result = new RespBean();  
-        BindingResult bindingResult = methodArgumentNotValidException.getBindingResult();  
-        // 创建封装校验出错信息map  
-        // HashMap<String, String> errorMap = new HashMap<>();        // 遍历所有校验出错字段  
-        // bindingResult.getFieldErrors().forEach(field -> {  
-        //     errorMap.put(field.getField(), field.getDefaultMessage());        // });  
-        String errorMsg = "捕获异常失败";  
-        if (bindingResult.getAllErrors().size() > 0) {  
-            errorMsg = bindingResult.getAllErrors().get(0).getDefaultMessage();  
-        }  
-        result.setErrorMsg(errorMsg);  
-        result.setErrorCode(-2240001);  
-        return result;  
-    }  
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+/**
+ * @author ydong
+ */
+@ControllerAdvice
+@Slf4j
+public class ValidatorException {
+
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseBody
+    public S2cRespWrap exceptionHandler(MethodArgumentNotValidException methodArgumentNotValidException) {
+        RespBean result = new RespBean();
+        BindingResult bindingResult = methodArgumentNotValidException.getBindingResult();
+        // 创建封装校验出错信息map
+        // HashMap<String, String> errorMap = new HashMap<>();
+        // 遍历所有校验出错字段
+        // bindingResult.getFieldErrors().forEach(field -> {
+        //     errorMap.put(field.getField(), field.getDefaultMessage());
+        // });
+
+        String errorMsg = "捕获异常失败";
+        if (bindingResult.getAllErrors().size() > 0) {
+            errorMsg = bindingResult.getAllErrors().get(0).getDefaultMessage();
+        }
+        result.setErrorMsg(errorMsg);
+        result.setErrorCode(-2240001);
+        return UmeCommonRuler.getResponse(result);
+    }
 }
 ```
 
