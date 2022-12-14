@@ -41,7 +41,7 @@ composer软件包地址：https://packagist.org/
 public function actionConsulRegister()
 {
     // 只注册一台到consul
-    $redisKey = "HTL:HOTELDETAIL:CONSULREGISTER";
+    $redisKey = "SERVICE:CONSULREGISTER";
     $predis = \Yii::$app->predis;
     $result = $predis->client->get($redisKey);
     if ($result) {
@@ -52,15 +52,14 @@ public function actionConsulRegister()
     $expireTime = 60;
     $predis->client->expire($redisKey, $expireTime);
 
-    // $_SERVER['CONSUL_HTTP_ADDR'] = \Yii::$app->params['rpc']['consul'];
-    putenv("CONSUL_HTTP_ADDR=" . \Yii::$app->params['rpc']['consul']);
+    putenv("CONSUL_HTTP_ADDR=CONSUL_URL");
     $kv = new \SensioLabs\Consul\Services\Agent();
-    $port = "8180";
+    $port = "80";
     $ip = getHostByName(getHostName());
     $array = [
         'id' => "{$ip}:{$port}",
-        'name' => 'ume_prometheus',
-        'tags' => ['ume_prometheus_v1'],
+        'name' => 'prometheus',
+        'tags' => ['prometheus_v1'],
         'address' => $ip,
         'port' => (int)$port,
         'enabletagoverride' => false,
@@ -100,18 +99,18 @@ $predis->client->expire($redisKey, $expireTime);
 
 ```PHP
 // consul地址
-putenv("CONSUL_HTTP_ADDR=" . \Yii::$app->params['rpc']['consul']);
+putenv("CONSUL_HTTP_ADDR=CONSUL_URL");
 $kv = new \SensioLabs\Consul\Services\Agent();
-$port = "8180";
+$port = "80";
 // 获取本机ip
 $ip = getHostByName(getHostName());
 $array = [
     // 服务id
     'id' => "{$ip}:{$port}",
     // 服务名称
-    'name' => 'ume_prometheus',
+    'name' => 'prometheus',
     // 服务tag，数组，自定义，可以根据这个tag来区分同一个服务名的服务
-    'tags' => ['ume_prometheus_v1'],
+    'tags' => ['prometheus_v1'],
     // 服务注册到consul的IP，服务发现，发现的就是这个IP
     'address' => $ip,
     // 服务IP对应端口号

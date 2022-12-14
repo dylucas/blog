@@ -43,6 +43,7 @@ class Prometheus
         if (!empty($prometheus['action'])) {
             $namespace = $prometheus['namespace'];
             $name = $prometheus['name'];
+            // it increases对应promethus counter数据类型
             self::$counter = self::$registry->registerCounter($namespace, $name, 'it increases', ['type']);
             if (is_array($prometheus['action'])) {
                 foreach ($prometheus['action'] as $v) {
@@ -77,6 +78,8 @@ $pthParam = [
 $prometheus->registerCounter($pthParam);
 ```
 
+
 ## 扩展阅读
 1. [Prometheus简介 · Prometheus中文技术文档](https://www.prometheus.wang/quickstart/why-monitor.html) 
 2. [第1章 天降奇兵 - prometheus-book (gitbook.io)](https://yunlzheng.gitbook.io/prometheus-book/parti-prometheus-ji-chu/quickstart)
+3. [prometheus四种数据类型_puppycuty的博客-CSDN博客_prometheus 类型](https://blog.csdn.net/qq_38125626/article/details/114626785)
