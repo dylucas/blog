@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9e1398746015e124",
+        "id": "61209148aa1e65cf",
         "type": "tabs",
         "children": [
           {
-            "id": "9e8a598573b58383",
+            "id": "80381309106052ad",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "archetypes/obsidianTemplater.md",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -147,7 +144,7 @@
     "direction": "horizontal",
     "width": 267.5
   },
-  "active": "9e8a598573b58383",
+  "active": "ccd51ab085c4bc18",
   "lastOpenFiles": [
     "content/post/ElasticSearch学习(一)/index.md",
     "archetypes/obsidianTemplater.md",
