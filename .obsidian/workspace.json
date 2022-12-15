@@ -11,8 +11,13 @@
             "id": "80381309106052ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/categories/database/index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/categories/database/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/categories/database/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/categories/database/index.md"
+              }
             }
           },
           {
@@ -144,17 +153,17 @@
     "direction": "horizontal",
     "width": 267.5
   },
-  "active": "ccd51ab085c4bc18",
+  "active": "80381309106052ad",
   "lastOpenFiles": [
+    "content/categories/codeTool/index.png",
+    "content/categories/codeTool/index.md",
+    "content/categories/database/index.md",
     "content/post/ElasticSearch学习(一)/index.md",
     "archetypes/obsidianTemplater.md",
     "content/post/Git子模块/index.md",
     "content/post/php注册consul/index.md",
     "content/post/php使用prometheus/index.md",
     "content/post/MySQL读写分离实践/index.md",
-    "content/post/Java请求参数注解验证并统一处理/index.md",
-    "themes/hugo-theme-stack/exampleSite/content/post/markdown-syntax/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg",
-    "themes/hugo-theme-stack/exampleSite/content/post/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg",
-    "未命名.md"
+    "content/post/Java请求参数注解验证并统一处理/index.md"
   ]
 }
