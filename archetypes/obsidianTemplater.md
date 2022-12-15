@@ -6,6 +6,7 @@ var randomKey = fruits[parseInt(Math.random()*(6-0)+0)];
 
 // https://cn.bing.com/HPImageArchive.aspx?format=js&n=10
 // https://api.oneneko.com/v1/bing_today
+// https://www.willkwok.cn/article/35.html
 var httpRequest = new XMLHttpRequest();
 httpRequest.open('GET', 'https://api.oneneko.com/v1/bing_today', false);
 httpRequest.send();
