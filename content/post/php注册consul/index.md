@@ -1,6 +1,7 @@
 ---
 title: php注册consul
 date: 2022-08-30
+image: "https://www.bing.com/th?id=OHR.WistmansWood_ZH-CN4453301808_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
 categories:
     - PHP
 ---

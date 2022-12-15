@@ -1,6 +1,7 @@
 ---
 title: "MySQL读写分离实践"
 date: 2020-09-05
+image: "https://www.bing.com/th?id=OHR.SaltDesert_ZH-CN4728398785_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
 draft: false
 keywords: ["MySQL","读写分离"]
 tags: ["MySQL"]

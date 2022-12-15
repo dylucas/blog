@@ -2,6 +2,7 @@
 title: "php使用prometheus"
 description: 
 date: 2022-12-13
+image: "https://www.bing.com/th?id=OHR.NorwayMuskox_ZH-CN6137934745_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
 draft: false
 tags: ["prometheus", "php"]
 categories: ["PHP"]
