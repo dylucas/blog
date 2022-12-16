@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/categories/database/index.md",
+                "file": "content/post/ElasticSearch学习(一)/index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bcc5f699f3bd65d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/进制和位运算/index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/categories/database/index.md",
+                "file": "content/post/进制和位运算/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/categories/database/index.md",
+                "file": "content/post/进制和位运算/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/categories/database/index.md"
+                "file": "content/post/进制和位运算/index.md"
               }
             }
           },
@@ -153,17 +167,17 @@
     "direction": "horizontal",
     "width": 267.5
   },
-  "active": "80381309106052ad",
+  "active": "5bcc5f699f3bd65d",
   "lastOpenFiles": [
+    "content/post/ElasticSearch学习(一)/index.md",
+    "content/post/php使用prometheus/index.md",
+    "content/post/Git子模块/index.md",
+    "content/post/Java请求参数注解验证并统一处理/index.md",
+    "content/post/MySQL读写分离实践/index.md",
+    "content/post/php注册consul/index.md",
+    "content/categories/database/index.md",
     "content/categories/codeTool/index.png",
     "content/categories/codeTool/index.md",
-    "content/categories/database/index.md",
-    "content/post/ElasticSearch学习(一)/index.md",
-    "archetypes/obsidianTemplater.md",
-    "content/post/Git子模块/index.md",
-    "content/post/php注册consul/index.md",
-    "content/post/php使用prometheus/index.md",
-    "content/post/MySQL读写分离实践/index.md",
-    "content/post/Java请求参数注解验证并统一处理/index.md"
+    "archetypes/obsidianTemplater.md"
   ]
 }
