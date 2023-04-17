@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "61209148aa1e65cf",
+        "id": "5b883b76b58a182a",
         "type": "tabs",
         "children": [
           {
-            "id": "80381309106052ad",
+            "id": "591b5e121648db69",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "content/post/ElasticSearch学习(一)/index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bcc5f699f3bd65d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/进制和位运算/index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "content/post/php使用Protobuf/index.md",
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/进制和位运算/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/进制和位运算/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/进制和位运算/index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,17 +147,30 @@
     "direction": "horizontal",
     "width": 267.5
   },
-  "active": "5bcc5f699f3bd65d",
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ccd51ab085c4bc18",
   "lastOpenFiles": [
-    "content/post/ElasticSearch学习(一)/index.md",
+    "content/post/进制和位运算/index.md",
     "content/post/php使用prometheus/index.md",
+    "content/post/php使用Protobuf/index.md",
+    "content/post/MySQL读写分离实践/index.md",
+    "content/post/ElasticSearch学习(一)/index.md",
     "content/post/Git子模块/index.md",
     "content/post/Java请求参数注解验证并统一处理/index.md",
-    "content/post/MySQL读写分离实践/index.md",
     "content/post/php注册consul/index.md",
     "content/categories/database/index.md",
     "content/categories/codeTool/index.png",
-    "content/categories/codeTool/index.md",
-    "archetypes/obsidianTemplater.md"
+    "content/categories/codeTool/index.md"
   ]
 }
