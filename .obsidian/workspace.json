@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5b883b76b58a182a",
+        "id": "19e4d36884d5f349",
         "type": "tabs",
         "children": [
           {
-            "id": "591b5e121648db69",
+            "id": "f27fbcd92de9bc89",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "content/post/php使用Protobuf/index.md",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -61,6 +58,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "522031ac62131773",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -159,14 +164,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ccd51ab085c4bc18",
+  "active": "f27fbcd92de9bc89",
   "lastOpenFiles": [
+    "content/post/对接金税wsdl记录/index.md",
+    "content/post/对接金税wsdl记录/index-20230515-2.png",
+    "Pasted image 20230515194706.png.md",
+    "content/post/对接金税wsdl记录/index-20230515.png",
+    "content/post/Git子模块/index.md",
+    "content/post/对接金税wsdl记录/index-20230515-1.png",
     "content/post/进制和位运算/index.md",
+    "content/post/对接金税wsdl记录",
     "content/post/php使用prometheus/index.md",
     "content/post/php使用Protobuf/index.md",
     "content/post/MySQL读写分离实践/index.md",
     "content/post/ElasticSearch学习(一)/index.md",
-    "content/post/Git子模块/index.md",
     "content/post/Java请求参数注解验证并统一处理/index.md",
     "content/post/php注册consul/index.md",
     "content/categories/database/index.md",
