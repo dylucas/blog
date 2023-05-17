@@ -22,9 +22,11 @@ SoapUI是一个自由和开放源码的跨平台功能测试解决方案。通�
 ### 下载wsdl文件
 启动一个wsdl服务
 ![](index-20230515.png)
-导出wsdl文件
+
+导出wsdl文件  
 ![](index-20230515-1.png)
-把wsdl文件放入resources目录
+
+把wsdl文件放入resources目录  
 ![](index-20230515-2.png)
 
 ### pom引入
