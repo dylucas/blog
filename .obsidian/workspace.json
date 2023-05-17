@@ -11,8 +11,13 @@
             "id": "f27fbcd92de9bc89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/php使用Protobuf/index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/php使用Protobuf/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/php使用Protobuf/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/php使用Protobuf/index.md"
+              }
             }
           },
           {
@@ -166,10 +175,11 @@
   },
   "active": "f27fbcd92de9bc89",
   "lastOpenFiles": [
+    "content/post/ElasticSearch学习(一)/index.md",
     "content/post/对接金税wsdl记录/index.md",
+    "content/post/对接金税wsdl记录/index-20230515.png",
     "content/post/对接金税wsdl记录/index-20230515-2.png",
     "Pasted image 20230515194706.png.md",
-    "content/post/对接金税wsdl记录/index-20230515.png",
     "content/post/Git子模块/index.md",
     "content/post/对接金税wsdl记录/index-20230515-1.png",
     "content/post/进制和位运算/index.md",
@@ -177,7 +187,6 @@
     "content/post/php使用prometheus/index.md",
     "content/post/php使用Protobuf/index.md",
     "content/post/MySQL读写分离实践/index.md",
-    "content/post/ElasticSearch学习(一)/index.md",
     "content/post/Java请求参数注解验证并统一处理/index.md",
     "content/post/php注册consul/index.md",
     "content/categories/database/index.md",
