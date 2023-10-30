@@ -70,7 +70,7 @@ private ZKInvoiceService getAsyncInvoiceServiceService() {
     // 获取代理地址
     String baseUrl = UmeProxyUtil.getProxy(proxyName);
     if (StringUtils.isEmpty(baseUrl)) {
-        baseUrl = "http://example.como";
+        baseUrl = "http://example.com";
     }
     // 拼接金税接口请求地址
     String apiUrlPath = ApolloUtil.getNamespaceConfig(ApolloConstant.GOLDEN_TAX, "apiUrlPath", "/eisp-lslx/ws/zkiService");
