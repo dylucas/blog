@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "19e4d36884d5f349",
+        "id": "010a4aaa98b40812",
         "type": "tabs",
         "children": [
           {
-            "id": "f27fbcd92de9bc89",
+            "id": "c8082a0e9cb20c0e",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "content/post/ElasticSearch学习(一)/index.md",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -167,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f27fbcd92de9bc89",
+  "active": "ccd51ab085c4bc18",
   "lastOpenFiles": [
     "content/post/pom.xml配置学习/index.md",
     "content/post/Git子模块/index.md",
