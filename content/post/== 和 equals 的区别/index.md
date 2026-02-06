@@ -2,6 +2,7 @@
 title: == 和 equals 的区别
 description: 
 date: 2024-08-01
+image: "https://www.bing.com/th?id=OHR.MorroJable_ZH-CN7382027689_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
 draft: false
 tags: 
 categories:

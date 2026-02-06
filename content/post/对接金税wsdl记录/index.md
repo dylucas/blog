@@ -5,7 +5,7 @@ date: 2023-05-15
 image: "https://www.bing.com/th?id=OHR.MorroJable_ZH-CN7382027688_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
 draft: false
 tags: []
-categories: []
+categories: [Java]
 ---
 ## [什么是WSDL](https://www.ibm.com/docs/zh/integration-bus/10.0?topic=services-what-is-wsdl)
 

@@ -2,6 +2,7 @@
 title: Java请求参数注解验证并统一处理
 date: 2022-10-25
 image: "https://www.bing.com/th?id=OHR.BuchsteinRossstein_ZH-CN4924477552_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
+draft: false
 categories:
     - Java
 ---
