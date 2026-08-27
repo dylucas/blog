@@ -2,7 +2,7 @@
 title: "对接金税wsdl记录"
 description: 
 date: 2023-05-15
-image: "https://www.bing.com/th?id=OHR.MorroJable_ZH-CN7382027688_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
+image: "cover.webp"
 draft: false
 tags: []
 categories: [Java]

@@ -1,17 +1,26 @@
 baseurl: https://blog.dylucas.cn/
-languageCode: en-us
+locale: en-us
 theme: hugo-theme-stack
-paginate: 5
+pagination:
+  pagerSize: 5
 title: 雨夜无声
 
 languages:
     en:
-        languageName: English
+        label: English
         title: rainy night silent
         description: My Notebook
         weight: 2
+        # 英文版暂无文章，移除会渲染为空的 categories / tag-cloud 组件
+        params:
+            widgets:
+                homepage:
+                    - type: search
+                    - type: archives
+                      params:
+                          limit: 5
     zh-cn:
-        languageName: 中文
+        label: 中文
         title: 雨夜无声
         description: 我的笔记本
         weight: 1
@@ -58,10 +67,6 @@ params:
     sidebar:
         emoji: 🍥
         subtitle: 倒映在水盆中的月亮
-        avatar:
-            enabled: false
-            local: true
-            src: img/avatar.png
 
     article:
         math: false
@@ -175,7 +180,7 @@ params:
         opengraph:
             enabled: false
             local: false
-            src:
+            src: ""
 
     colorScheme:
         # Display toggle

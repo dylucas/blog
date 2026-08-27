@@ -2,7 +2,7 @@
 title: 使用PDFBox生成酒店水单
 description: 
 date: 2023-07-03
-image: https://www.bing.com/th?id=OHR.CoyoteBanff_ZH-CN4183627255_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
+image: "cover.webp"
 draft: false
 tags: 
 categories:

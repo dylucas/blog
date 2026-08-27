@@ -2,7 +2,7 @@
 title: pom.xml配置学习
 description: 
 date: 2024-04-15
-image: https://www.bing.com/th?id=OHR.ChambordCastle_ZH-CN0930093515_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
+image: "cover.webp"
 draft: false
 tags:
   - Maven

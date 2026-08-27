@@ -2,7 +2,7 @@
 title: "进制和位运算"
 description: 
 date: 2018-05-18
-image: "https://www.bing.com/th?id=OHR.DudhsagarFallsGoa_ZH-CN0466471017_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
+image: "cover.webp"
 draft: false
 tags: ["进制","位运算"]
 categories: []
