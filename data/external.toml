@@ -1,0 +1,6 @@
+# 站点级覆盖主题的 CDN 配置：PhotoSwipe 图片灯箱自托管
+# 对应 themes/hugo-theme-stack/data/external.toml 中的同名键，本地路径优先
+[PhotoSwipe]
+    Style    = "/lib/photoswipe/photoswipe.css"
+    Core     = "/lib/photoswipe/photoswipe.esm.min.js"
+    Lightbox = "/lib/photoswipe/photoswipe-lightbox.esm.min.js"
