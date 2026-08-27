@@ -79,9 +79,9 @@ public class HotelReceiptServiceImpl implements HotelReceiptService {
             // 创建 PDDocumentInformation 对象  
             PDDocumentInformation pdd = document.getDocumentInformation();  
             // 设置文档的作者  
-            pdd.setAuthor("航旅纵横");  
+            pdd.setAuthor("XX平台");  
             // 设置文档的标题  
-            pdd.setTitle("航旅纵横酒店预订账单（水单）");  
+            pdd.setTitle("XX平台酒店预订账单（水单）");  
   
             contentStream = new PDPageContentStream(document, page);  
             InputStream inFont = this.getClass().getClassLoader().getResourceAsStream("font/AlibabaPuHuiTi-3-55-Regular.ttf");  
@@ -90,7 +90,7 @@ public class HotelReceiptServiceImpl implements HotelReceiptService {
             float fontSize = 15;  
             contentStream.setFont(font, fontSize);  
             // 设置标题文本  
-            String title = "航旅纵横酒店预订账单（水单）";  
+            String title = "XX平台酒店预订账单（水单）";  
             float titleWidth = font.getStringWidth(title) / 1000 * fontSize;  
             float titleHeight = font.getFontDescriptor().getFontBoundingBox().getHeight() / 1000 * fontSize;  
             float startX = (page.getMediaBox().getWidth() - titleWidth) / 2;  
@@ -128,10 +128,10 @@ public class HotelReceiptServiceImpl implements HotelReceiptService {
             pdfTable(page, 350, 5, 2, titleList, valueList);  
   
   
-            showTextByLeft(String.format("用户本单通过航旅纵横平台预订，发票由%s提供。", producePdfRequest.getReceiptIssuer()), "", 100, page.getMediaBox().getHeight() - 490);  
+            showTextByLeft(String.format("用户本单通过XX平台平台预订，发票由%s提供。", producePdfRequest.getReceiptIssuer()), "", 100, page.getMediaBox().getHeight() - 490);  
             showTextByLeft(String.format("客服电话%s", producePdfRequest.getReceiptTel()), "", 100, page.getMediaBox().getHeight() - 510);  
   
-            InputStream logoFile = this.getClass().getClassLoader().getResourceAsStream("invoice/航旅纵横酒店.jpeg");  
+            InputStream logoFile = this.getClass().getClassLoader().getResourceAsStream("invoice/XX平台酒店.jpeg");  
             PDImageXObject logo = JPEGFactory.createFromStream(document, logoFile);  
             // 缩放因子  
             float logoScale = 0.4f;  
@@ -143,7 +143,7 @@ public class HotelReceiptServiceImpl implements HotelReceiptService {
                 contentStream.drawImage(image, page.getMediaBox().getWidth() - 270, page.getMediaBox().getHeight() - 670, image.getWidth() * scale, image.getHeight() * scale);  
             }  
             contentStream.close();  
-            String file = String.format("/opt/applog/MskyLog/umehotel-order-service/航旅纵横水单%s.pdf", producePdfRequest.getOrderNo());  
+            String file = String.format("/opt/applog/MskyLog/umehotel-order-service/XX平台水单%s.pdf", producePdfRequest.getOrderNo());  
             document.save(file);  
             return Result.success(file);  
         } catch (IOException e) {  
