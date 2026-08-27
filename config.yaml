@@ -1,24 +1,24 @@
 baseurl: https://blog.dylucas.cn/
-locale: en-us
+locale: zh-CN
 theme: hugo-theme-stack
 pagination:
     pagerSize: 5
 title: 雨夜无声
 
 languages:
-    en:
-        label: English
-        title: rainy night silent
-        description: My Notebook
-        weight: 2
-        # 英文版暂无文章，移除会渲染为空的 categories / tag-cloud 组件
-        params:
-            widgets:
-                homepage:
-                    - type: search
-                    - type: archives
-                      params:
-                          limit: 5
+    # en:
+    #     label: English
+    #     title: rainy night silent
+    #     description: My Notebook
+    #     weight: 2
+    #     # 英文版暂无文章，移除会渲染为空的 categories / tag-cloud 组件
+    #     params:
+    #         widgets:
+    #             homepage:
+    #                 - type: search
+    #                 - type: archives
+    #                   params:
+    #                       limit: 5
     zh:
         label: 中文
         title: 雨夜无声
