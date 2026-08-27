@@ -6,6 +6,11 @@ pagination:
     pagerSize: 5
 title: 雨夜无声
 
+# 用 Git 提交时间作为文章最后修改时间（article:modified_time）
+enableGitInfo: true
+frontmatter:
+    lastmod: [":git", "lastmod", "date"]
+
 languages:
     zh:
         label: 中文
